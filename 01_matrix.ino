@@ -1,5 +1,3 @@
-
-
 void spiBeginTransfer() {
   digitalWrite(CS_PIN, LOW);
 }

@@ -5,5 +5,7 @@
 #define DEVICES 4
 #define ROWS_COUNT 8
 
-unsigned long data[ROWS_COUNT] = {};
+const unsigned int ROW_SIZE = (int)(DEVICES + 2);
+
+byte unsigned data[ROWS_COUNT][ROW_SIZE] = {};
 const byte text[] PROGMEM = {"!\"#$%&#$#"};

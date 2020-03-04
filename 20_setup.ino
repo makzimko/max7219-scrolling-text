@@ -9,9 +9,7 @@ void setup() {
   setShutdownMode(1);
   setIntensity(0);
   testDisplay();
-  clearDisplay();
 
-  for (int i = 0; i < ROWS_COUNT; i++) {
-    data[i] = random(2);
-  }
+  delay(1000);
+  clearDisplay();
 }
