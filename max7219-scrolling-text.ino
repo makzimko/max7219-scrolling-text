@@ -6,3 +6,4 @@
 #define ROWS_COUNT 8
 
 unsigned long data[ROWS_COUNT] = {};
+const byte text[] PROGMEM = {"!\"#$%&#$#"};

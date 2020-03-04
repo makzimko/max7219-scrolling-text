@@ -1,0 +1,38 @@
+// space
+const byte C32[] PROGMEM = {
+  0x04
+};
+
+// !
+const byte C33[] PROGMEM = {
+  0x11, B11111010
+};
+
+// "
+const byte C34[] PROGMEM = {
+  0x31, B11000000, 0, B11000000
+};
+
+// #
+const byte C35[] PROGMEM = {
+  0x51, B00101000, B01111100, B00101000, B01111100, B00101000
+};
+
+// $
+const byte C36[] PROGMEM = {
+  0x51, B00100000, B01010100, B11111110, B01010100, B00001000
+};
+
+// %
+const byte C37[] PROGMEM = {
+  0x51, B11000100, B11001000, B00010000, B00100110, B01000110
+};
+
+// &
+const byte C38[] PROGMEM = {
+  0x51, B01101100, B10010010, B10101010, B01000100, B00001010
+};
+
+const byte* const font[] PROGMEM = {
+  C32, C33, C34, C35, C36, C37, C38
+};
